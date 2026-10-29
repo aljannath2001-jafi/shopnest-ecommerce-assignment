@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ShopNest | Online Shopping</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">ShopNest<span>.</span></div>
+
+    <input
+        type="search" 
+        id="search-input"
+        placeholder="Search products"
+        aria-label="Search products"
+         >        
+
+         <div class="cart-summary">
+             cart (<span id="cart-count">0</span>)
+            </div>
+             </header>
+
+        <main class="container">
+            <section class="welcome">
+             <h1>Discover Your Favorites</h1>
+                <p>Find something you'll love at ShopNest.</p>
+                    </section>
+                        
+         <nav class="category-filters" aria-label="Product categories">
+             <button class="filter-btn active" data-category="All">All</button>
+             <button class="filter-btn" data-category="Electronics">Electronics</button>
+             <button class="filter-btn" data-category="Clothing">Clothing</button>
+             <button class="filter-btn" data-category="Footwear">Footwear</button>
+             <button class="filter-btn" data-category="Books">Books</button>
+                        </nav>
+
+         <section class="shop-layout">
+            <div class="products-section">
+            <h2>Our Products</h2>
+             <p id="products-message" aria-live="polite"></p>
+
+                                
+         <div id="products-container" class="products-grid"></div>
+             </div>
+
+          <aside class="cart-panel">
+                 <h2>Your Cart</h2>
+                 <div id="cart-items"></div>
+                  <div class="cart-total">
+                  <span>Total:</span>
+                  <strong id="cart-total">₹0.00</strong>
+                   </div>
+
+                         <button id="checkout-btn" class="checkout-btn">
+                               proceed to checkout
+                       </button>
+
+                                        <!-- Checkout Form -->
+                 <section id="checkout-section" class="checkout-section" hidden>
+    <h2>Checkout</h2>
+
+    <form id="checkout-form">
+        <label for="customer-name">Full Name</label>
+        <input type="text" id="customer-name"
+            name="customerName"
+            placeholder="Enter your full name" required>
+
+        <label for="customer-email">Email Address</label>
+        <input type="email" id="customer-email"
+            name="customerEmail"
+            placeholder="Enter your email" required>
+
+        <label for="customer-phone">Phone Number</label>
+        <input type="tel" id="customer-phone"
+            name="customerPhone"
+            placeholder="Enter your phone number"
+            pattern="[0-9]{10}" maxlength="10" required>
+
+        <label for="customer-address">Delivery Address</label>
+        <textarea id="customer-address"
+            name="customerAddress"
+            placeholder="Enter your delivery address"
+            rows="4" required></textarea>
+
+        <div class="checkout-summary">
+            <span>Order Total:</span>
+            <strong id="checkout-total">₹0.00</strong>
+        </div>
+
+        <button type="submit" class="place-order-btn">
+            Place Order
+        </button>
+    </form>
+</section>
+     </aside>
+           </section>
+           
+           <section id="order-confirmation" hidden>
+                 <h2>🎉 Order Confirmed!</h2>
+             <p>Thank you for shopping with ShopNest.</p>
+             <p>Order Number: <strong id="confirmed-order-number"></strong></p>
+             <p>Order Total: <strong id="confirmed-order-total"></strong></p>
+              <button id="continue-shopping-btn" type="button">
+                        Continue Shopping
+       </button>
+           </section>
+
+           <section id="order-history-section" class="order-history-section">
+    <h2>📦 My Order History</h2>
+    <div id="order-history">
+        <p>No orders yet. Start shopping!</p>
+       </div>
+           </section>
+                  </main>
+
+                       <footer>
+                                <p>@ 2026 ShopNest. Happy Shopping!</p>
+                            </footer>
+                            <script src="script.js"></script>
+                       
+                           </body>
+                              </html>

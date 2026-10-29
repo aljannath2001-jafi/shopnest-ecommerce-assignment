@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "price": 1499,
+        "originalPrice": 1999,
+        "description": "Enjoy clear sound and comfortable listening every day.",
+        "category": "Electronics",
+        "rating": 4.5,
+        "imageUrl": "images/headphones.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Smart Watch",
+        "price": 2199,
+        "originalPrice": 2999,
+        "description": "Track your daily activity and stay connected in style.",
+        "category": "Electronics",
+        "rating": 4.3,
+        "imageUrl": "images/smart-watch.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bluetooth Speaker",
+        "price": 999,
+        "originalPrice": 1499,
+        "description": "Enjoy your favourite music with portable wireless sound.",
+        "category": "Electronics",
+        "rating": 4.1,
+        "imageUrl": "images/bluetooth-speaker.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Wireless Mouse",
+        "price": 599,
+        "originalPrice": 899,
+        "description": "Enjoy smooth,comfortable navigation with this wireless mouse for everyday work and study.",
+        "category": "Electronics",
+        "rating": 4.4,
+        "imageUrl": "images/mouse.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Premium Cotton T-shirt",
+        "price": 499,
+        "originalPrice": 799,
+        "description": "A soft and breathable cotton t-shirt for everyday comfort and effortless style.",
+        "category": "Clothing",
+        "rating": 4.6,
+        "imageUrl": "images/tshirt.jpg"
+
+    },
+    {
+        "id": 6,
+        "name": "Women's Casual Hoodie",
+        "price": 899,
+        "originalPrice": 1299,
+        "description": "A cozy and stylish hoodie perfect for casual outings and relaxed.",
+        "category": "Clothing",
+        "rating": 4.4,
+        "imageUrl": "images/hoodie.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Slim Fit Denim Jeans",
+        "price": 1199,
+        "originalPrice": 1599,
+        "description": "Classic slim fit denim jeans designed to complement your everyday outfit.",
+        "category": "Clothing",
+        "rating": 4.3,
+        "imageUrl": "images/jeans.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Running Sports Shoes",
+        "price": 1799,
+        "originalPrice": 2499,
+        "description": "Lightweight sports shoes for walking,running, and daily workouts.",
+        "category": "Footwear",
+        "rating": 4.6,
+        "imageUrl": "images/sports-shoe.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Everyday Casual Sneakers",
+        "price": 1399,
+        "originalPrice": 1899,
+        "description": "Versatile casual sneakers that bring comfort and style to everyday wear.",
+        "category": "Footwear",
+        "rating": 4.2,
+        "imageUrl": "images/sneakers.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Atomic Habits",
+        "price": 399,
+        "originalPrice": 599,
+        "description": "A practical guide to building good habits and making small changes that lead to lasting improvement.",
+        "category": "Books",
+        "rating": 4.8,
+        "imageUrl": "images/habits.jpg"
+
+    },
+    {
+        "id": 11,
+        "name": "The Psychology of Money",
+        "price": 349,
+        "originalPrice": 499,
+        "description": "Explore how people think about money,saving,investing, and financial decision.",
+        "category": "Books",
+        "rating": 4.7,
+         "imageUrl": "images/psychology-money.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Never Enough: The Neuroscience of Addiction",
+        "price": 399,
+        "originalPrice": 549,
+        "description": "An educational book exploring the science of addiction, how drugs affect the brain, and the challenges of recovery.",
+        "category": "Books",
+        "rating": 4.9,
+        "imageUrl": "images/never-enough.jpg"
+    }
+]
