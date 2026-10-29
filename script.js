@@ -431,8 +431,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("confirmed-order-number").textContent = orderNumber;
         document.getElementById("confirmed-order-total").textContent = orderTotal;
-        document.getElementById("order-confirmation").hidden = false;
+        const confirmation = document.getElementById("order-confirmation");
+         confirmation.hidden = false;
 
+        confirmation.scrollIntoView({
+         behavior: "smooth",
+         block: "center"
+});
         cart = [];
         saveCart();
         renderCart();
